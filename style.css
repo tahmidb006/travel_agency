@@ -1,0 +1,342 @@
+body {
+    font-family: "Lato", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ashText {
+    color: gray;
+}
+
+.mainLogo {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.orangeText {
+    color: orangered;
+}
+
+.rightimg {
+    margin-top: 20vh;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navOL {
+    list-style: none;
+    display: flex;
+}
+
+.navItem {
+    margin-right: 40px;
+}
+
+.hero {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+}
+
+.whiteText {
+    color: white;
+}
+
+.heroText {
+    text-align: center;
+}
+
+.heroText h1 {
+    font-size: 60px;
+}
+
+.heroOptions {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    width: 80vh;
+    height: 10vh;
+    z-index: 1;
+}
+
+.heroOptions::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    z-index: -1;
+}
+
+
+.options select {
+    border: none;
+    font-size: 2.25vh;
+    display: flex;
+    line-height: 4vh;
+    width: 18vh;
+    height: 5vh;
+    border-radius: 1vh;
+}
+
+.heroOptions input,
+input:focus {
+    border: none;
+    outline: none;
+    font-size: 2.25vh;
+    display: flex;
+    line-height: 4vh;
+    width: 18vh;
+    height: 5vh;
+    border-radius: 1vh;
+}
+
+.btn {
+    border: none;
+    font-size: 2.25vh;
+    width: 18vh;
+    height: 5vh;
+    background-color: orangered;
+    border-radius: 1vh;
+}
+
+.options select:focus {
+    outline: none;
+    border: none;
+}
+
+.first {
+    font-size: 2vh;
+    margin-top: 24vh;
+    display: flex;
+    gap: 6vh;
+    letter-spacing: 0.1vh;
+}
+
+.first h1 {
+    font-size: 5vh;
+}
+
+.first button {
+    height: 6vh;
+}
+
+.third p {
+    font-size: 2vh;
+}
+
+.wcu {
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 153, 0.2);
+    border: 4 solid yellow;
+    height: 32vh;
+    width: 60vh;
+    border-radius: 1vh;
+    padding: 2vh;
+}
+
+.blue {
+    background-color: rgba(173, 216, 230, 0.2);
+    border: 4px solid lightblue;
+}
+
+.red {
+    background-color: rgba(240, 128, 128, 0.2);
+    border: 4px solid lightcoral;
+}
+
+.f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s {
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth {
+    margin-top: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tv {
+    margin-top: 20vh;
+}
+
+.third {
+    margin-top: 30vh;
+}
+
+.simple {
+    font-size: 5vh;
+}
+
+.fifth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border: 3px solid orangered;
+}
+
+.fifth img {
+    height: 100%;
+}
+
+.input:focus {
+    width: auto;
+    height: 4vh;
+}
+
+.black {
+    color: lightgray;
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-width: 0.8px;
+}
+
+.input {
+    padding: 1.5vh;
+    width: 100%;
+    height: 4vh;
+    border-radius: 1vh;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+}
+
+.subscribe {
+    padding: 1.5vh;
+    height: 4vh;
+    border-radius: 1vh;
+    background-color: orangered;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.stick {
+    padding: 1vh;
+    width: 22vh;
+    border-radius: 1vh;
+    background-color: orangered;
+    position: relative;
+    transform: translate3d(44vh, -25vh, 0vh) rotateZ(-45deg);
+}
+
+footer {
+    margin: 0 0;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secondLogo {
+    margin: auto;
+}
+
+.end {
+    margin-top: 5vh;
+}
+
+footer hr {
+    width: 110vh;
+}
+
+.rights {
+    font-size: 2vh;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 776px) {
+    *{
+        margin: auto;
+    }
+    body{
+        margin: 0 0;
+        width: 100vh;
+    }
+    .heroOptions{
+        flex-direction: column;
+        width: 20vh;
+        height: 40vh;
+    }
+    .first{
+        flex-direction: column;
+    }
+    .f{
+        flex-direction: column;
+    }
+    .fourth{
+        flex-direction: column;
+    }
+    .fifth{
+        flex-direction: column;
+    }
+    .cony{
+        width: 20vh;
+    }
+}
